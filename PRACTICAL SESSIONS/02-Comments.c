@@ -1,5 +1,5 @@
 //Practical Number      : 02
-//Problem Specification : Print Hello World using C-programming language.
+//Problem Specification : Entering comments.
 
 //Code : 
 
