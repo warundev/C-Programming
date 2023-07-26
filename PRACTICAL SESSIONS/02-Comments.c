@@ -1,5 +1,5 @@
 //Practical Number      : 02
-//Problem Specification : Entering comments
+//Problem Specification : Entering comments.
 
 //Code : 
 
