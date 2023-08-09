@@ -10,8 +10,8 @@ int main()
 {
 	
 	int i,num,sum=0;
-	
-	printf("Type a number  : ");
+	//Reading number
+	printf("Enter any number  : ");
 	scanf("%d", &num);
 	
 	printf("Odd Numbers : ");
@@ -19,19 +19,20 @@ int main()
 	for(i=1;i<=num;i+=2)
 	{
 		printf("   %d",i);
+        //Adding current odd number to sum variable.
 		sum+=i;
 	}
 	
-	printf("\nSummation of All Odd Numbers  : %d",sum);
+	printf("\nSummation of All Odd Number between 1 to %d : %d",num,sum);
 	
 	return 0;
 }
 
 //Output : 
 /*
-Type a number  : 12
-Odd Numbers :    1   3   5   7   9   11      
-Summation of All Odd Numbers  : 36
+Enter any number  : 12
+Odd Numbers :    1   3   5   7   9   11
+Summation of All Odd Number between 1 to 12 : 36 
 */
 
 //Conclusion :
